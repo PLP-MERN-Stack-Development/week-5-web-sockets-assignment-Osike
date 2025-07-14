@@ -122,7 +122,7 @@ app.get('/api/users', (req, res) => {
 app.get('/', (req, res) => {
   res.send('Socket.io Chat Server is running');
 });
-
+// delete this commemt
 // Start server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
